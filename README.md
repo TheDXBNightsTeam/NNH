@@ -1,51 +1,59 @@
 # NNH Social Media Applications Development & Management
 
-## 🚀 نظرة عامة
+## 🚀 Overview
 
-موقع ويب احترافي لشركة NNH المتخصصة في تطوير وإدارة تطبيقات وسائل التواصل الاجتماعي. الموقع مبني بأحدث التقنيات ويوفر تجربة مستخدم استثنائية مع دعم متعدد اللغات.
+Professional website for NNH company specializing in social media applications development and management. The website is built with modern technologies and provides an exceptional user experience with multilingual support.
 
-## ✨ المميزات الرئيسية
+## ✨ Key Features
 
-### 🎨 تصميم متقدم
-- تصميم فاخر ومتجاوب مع جميع الأجهزة
-- رسوم متحركة تفاعلية ومتطورة
-- نظام ألوان ذهبي فاخر
-- تأثيرات بصرية مذهلة
+### 🎨 Advanced Design
+- Luxurious and responsive design for all devices
+- Interactive and advanced animations
+- Golden color scheme
+- Stunning visual effects
 
-### 📱 أقسام شاملة
-- **Hero Section**: قسم رئيسي جذاب مع رسوم متحركة
-- **Services**: عرض الخدمات المتخصصة
-- **Portfolio**: معرض أعمال مع فلترة متقدمة
-- **Testimonials**: آراء العملاء مع إحصائيات
-- **Pricing**: خطط أسعار شاملة مع مقارنات
-- **Blog**: مدونة تقنية مع مقالات متنوعة
-- **About**: معلومات الشركة والرخصة
-- **Contact**: نموذج اتصال متقدم مع تحقق
+### 📱 Comprehensive Sections
+- **Hero Section**: Attractive main section with animations
+- **Services**: Display of specialized services
+- **Portfolio**: Project gallery with advanced filtering
+- **Testimonials**: Client testimonials with statistics
+- **Pricing**: Comprehensive pricing plans with comparisons
+- **Blog**: Technical blog with various articles
+- **About**: Company information and license
+- **Contact**: Advanced contact form with validation
 
-### 🌍 دعم متعدد اللغات
-- دعم كامل للعربية والإنجليزية
-- تبديل سلس بين اللغات
-- حفظ تفضيل اللغة
-- اتجاه النص التلقائي (RTL/LTR)
+### 🌍 Multilingual Support
+- Full support for Arabic and English
+- Seamless language switching
+- Language preference saving
+- Automatic text direction (RTL/LTR)
 
-### 🔍 تحسين محركات البحث
-- Meta tags محسنة
+### 🔍 Search Engine Optimization
+- Enhanced meta tags
 - Structured Data (Schema.org)
 - Sitemap.xml
 - Robots.txt
 - Open Graph tags
 - Twitter Cards
 
-### ⚡ تقنيات متقدمة
-- **React 18** مع TypeScript
-- **Vite** للبناء السريع
-- **Tailwind CSS** للتصميم
-- **shadcn/ui** للمكونات
-- **React Hook Form** مع Zod للتحقق
-- **Framer Motion** للرسوم المتحركة
-- **React Query** لإدارة البيانات
+### ⚡ Advanced Technologies
+- **React 18** with TypeScript
+- **Vite** for fast building
+- **Tailwind CSS** for styling
+- **shadcn/ui** for components
+- **React Hook Form** with Zod for validation
+- **React Query** for data management
 
-## 🛠️ التقنيات المستخدمة
+### 🌟 New Features
+- **Code Splitting**: Improved performance with lazy loading
+- **Improved Routing**: Better route organization with nested routes
+- **Enhanced State Management**: Better state organization with context
+- **Error Boundaries**: Graceful error handling
+- **Analytics Integration**: Track user interactions
+- **Accessibility Features**: Improved accessibility for all users
+- **Form Validation**: Enhanced form handling with validation
+
+## 🛠️ Technologies Used
 
 - **Frontend**: React 18, TypeScript, Vite
 - **Styling**: Tailwind CSS, CSS Variables
@@ -54,134 +62,154 @@
 - **Animations**: Custom CSS animations, Intersection Observer
 - **State Management**: React Context API
 - **Routing**: React Router DOM
+- **Analytics**: Custom analytics service
+- **Accessibility**: ARIA attributes, keyboard navigation, screen reader support
 - **Icons**: Lucide React
 - **Build Tool**: Vite
 - **Package Manager**: npm
 
-## 🚀 البدء السريع
+## 🚀 Quick Start
 
-### المتطلبات
+### Requirements
 - Node.js 18+ 
-- npm أو yarn
+- npm or yarn
 
-### التثبيت
+### Installation
 
 ```bash
-# 1. استنساخ المشروع
+# 1. Clone the repository
 git clone <repository-url>
-cd my-license-guide-main
+cd NNH
 
-# 2. تثبيت التبعيات
+# 2. Install dependencies
 npm install
 
-# 3. تشغيل خادم التطوير
+# 3. Start the development server
 npm run dev
 
-# 4. فتح المتصفح
+# 4. Open the browser
 # http://localhost:5173
 ```
 
-### الأوامر المتاحة
+### Available Commands
 
 ```bash
-# تشغيل خادم التطوير
+# Run development server
 npm run dev
 
-# بناء المشروع للإنتاج
+# Build for production
 npm run build
 
-# معاينة البناء
+# Preview the build
 npm run preview
 
-# فحص الكود
+# Check code
 npm run lint
 ```
 
-## 📁 هيكل المشروع
+## 📁 Project Structure
 
 ```
 src/
-├── components/          # المكونات الرئيسية
-│   ├── ui/             # مكونات واجهة المستخدم
-│   ├── Hero.tsx        # القسم الرئيسي
-│   ├── Services.tsx    # قسم الخدمات
-│   ├── Portfolio.tsx   # معرض الأعمال
-│   ├── Testimonials.tsx # آراء العملاء
-│   ├── Pricing.tsx     # خطط الأسعار
-│   ├── Blog.tsx        # المدونة
-│   ├── About.tsx       # من نحن
-│   ├── Contact.tsx     # اتصل بنا
-│   └── Footer.tsx      # التذييل
+├── components/          # Main components
+│   ├── ui/             # UI components
+│   ├── Hero.tsx        # Hero section
+│   ├── Services.tsx    # Services section
+│   ├── Portfolio.tsx   # Portfolio gallery
+│   ├── Testimonials.tsx # Client testimonials
+│   ├── Pricing.tsx     # Pricing plans
+│   ├── Blog.tsx        # Blog section
+│   ├── About.tsx       # About us section
+│   ├── Contact.tsx     # Contact section
+│   ├── Footer.tsx      # Footer section
+│   ├── ContactForm.tsx # Enhanced contact form
+│   ├── ErrorBoundary.tsx # Error handling
+│   └── AccessibilityMenu.tsx # Accessibility features
 ├── contexts/           # React Contexts
-│   └── LanguageContext.tsx # سياق اللغة
+│   ├── LanguageContext.tsx # Language context
+│   └── AppContext.tsx  # Application state context
 ├── hooks/              # Custom Hooks
-├── lib/                # مكتبات مساعدة
-├── pages/              # صفحات التطبيق
-└── assets/             # الصور والملفات الثابتة
+│   ├── use-mobile.tsx  # Mobile detection hook
+│   └── use-analytics.ts # Analytics hook
+├── layouts/            # Layout components
+│   └── MainLayout.tsx  # Main layout wrapper
+├── lib/                # Helper libraries
+│   └── analytics.ts    # Analytics service
+├── routes/             # Routing configuration
+│   └── index.tsx       # Route definitions
+├── pages/              # Application pages
+│   ├── Index.tsx       # Home page
+│   └── NotFound.tsx    # 404 page
+├── styles/             # Additional styles
+│   └── accessibility.css # Accessibility styles
+└── assets/             # Static assets and images
 ```
 
-## 🎯 المميزات المتقدمة
+## 🎯 Advanced Features
 
-### الرسوم المتحركة
-- **ScrollReveal**: ظهور العناصر عند التمرير
-- **Parallax**: تأثيرات الحركة
-- **TypingAnimation**: تأثير الكتابة
-- **Hover Effects**: تأثيرات التفاعل
-- **Loading States**: حالات التحميل
+### Animations
+- **ScrollReveal**: Elements appear on scroll
+- **Parallax**: Motion effects
+- **TypingAnimation**: Typing effect
+- **Hover Effects**: Interactive effects
+- **Loading States**: Loading indicators
 
-### تحسين الأداء
-- **Lazy Loading**: تحميل كسول للصور
-- **Code Splitting**: تقسيم الكود
-- **Optimized Images**: صور محسنة
-- **Minimal Bundle**: حزمة صغيرة
+### Performance Optimization
+- **Lazy Loading**: Lazy loading for images
+- **Code Splitting**: Component-based code splitting
+- **Optimized Images**: Optimized images
+- **Minimal Bundle**: Small bundle size
 
-### إمكانية الوصول
-- **ARIA Labels**: تسميات الوصول
-- **Keyboard Navigation**: التنقل بلوحة المفاتيح
-- **Screen Reader Support**: دعم قارئات الشاشة
-- **High Contrast**: تباين عالي
+### Accessibility
+- **ARIA Labels**: Accessibility labels
+- **Keyboard Navigation**: Keyboard support
+- **Screen Reader Support**: Screen reader compatibility
+- **High Contrast**: High contrast mode
+- **Reduced Motion**: Reduced motion option
+- **Focus Visible**: Enhanced focus indicators
+- **Large Pointer**: Large cursor option
 
-## 🌐 النشر
+## 🌐 Deployment
 
-### Vercel (مستحسن)
+### Vercel (Recommended)
 ```bash
 npm run build
-# رفع مجلد dist إلى Vercel
+# Upload dist folder to Vercel
 ```
 
 ### Netlify
 ```bash
 npm run build
-# رفع مجلد dist إلى Netlify
+# Upload dist folder to Netlify
 ```
 
-### خادم تقليدي
+### Traditional Server
 ```bash
 npm run build
-# نسخ محتويات مجلد dist إلى خادم الويب
+# Copy contents of dist folder to web server
 ```
 
-## 📞 الدعم
+## 📞 Support
 
-للحصول على الدعم أو الاستفسارات:
-- **الهاتف**: +971-543665548
-- **الموقع**: دبي، الإمارات العربية المتحدة
-- **الرخصة**: 1481283 (صادرة من دائرة السياحة والاقتصاد في دبي)
+For support or inquiries:
+- **Phone**: +971-543665548
+- **Location**: Dubai, United Arab Emirates
+- **License**: 1481283 (Issued by Dubai Department of Economy and Tourism)
 
-## 📄 الترخيص
+## 📄 License
 
-هذا المشروع مرخص من دائرة السياحة والاقتصاد في دبي تحت رقم الرخصة 1481283.
+This project is licensed by Dubai Department of Economy and Tourism under license number 1481283.
 
-## 🤝 المساهمة
+## 🤝 Contribution
 
-نرحب بالمساهمات! يرجى:
-1. عمل Fork للمشروع
-2. إنشاء فرع للميزة الجديدة
-3. عمل Commit للتغييرات
-4. عمل Push للفرع
-5. فتح Pull Request
+Contributions are welcome! Please:
+1. Fork the project
+2. Create a feature branch
+3. Commit your changes
+4. Push to the branch
+5. Open a Pull Request
 
 ---
 
 **NNH FOR SOCIAL MEDIA APPLICATIONS DEVELOPMENT & MANAGEMENT**  
-*مرخص من دائرة السياحة والاقتصاد في دبي*
+*Licensed by Dubai Department of Economy and Tourism*
