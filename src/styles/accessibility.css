@@ -1,0 +1,84 @@
+/* Accessibility Styles */
+
+/* High Contrast Mode */
+.high-contrast {
+  --background: #000000;
+  --foreground: #ffffff;
+  --primary: #ffff00;
+  --primary-foreground: #000000;
+  --muted: #333333;
+  --muted-foreground: #ffffff;
+  --border: #ffffff;
+  --input: #333333;
+  --ring: #ffff00;
+  
+  /* Increase contrast for text */
+  --text-contrast: 1.5;
+  
+  /* Increase border visibility */
+  --border-width: 2px;
+}
+
+.high-contrast * {
+  border-color: var(--border);
+}
+
+.high-contrast a {
+  color: var(--primary);
+  text-decoration: underline;
+}
+
+.high-contrast button,
+.high-contrast [role="button"] {
+  border: var(--border-width) solid var(--border);
+  outline: var(--border-width) solid transparent;
+}
+
+.high-contrast button:focus,
+.high-contrast [role="button"]:focus,
+.high-contrast a:focus,
+.high-contrast input:focus,
+.high-contrast select:focus,
+.high-contrast textarea:focus {
+  outline: var(--border-width) solid var(--ring);
+  outline-offset: 2px;
+}
+
+/* Reduced Motion */
+.reduced-motion * {
+  animation-duration: 0.001ms !important;
+  animation-iteration-count: 1 !important;
+  transition-duration: 0.001ms !important;
+  scroll-behavior: auto !important;
+}
+
+/* Focus Visible */
+.focus-visible :focus {
+  outline: 3px solid var(--ring);
+  outline-offset: 3px;
+}
+
+.focus-visible :focus:not(:focus-visible) {
+  outline: none;
+}
+
+.focus-visible :focus-visible {
+  outline: 3px solid var(--ring);
+  outline-offset: 3px;
+}
+
+/* Large Pointer */
+.large-pointer * {
+  cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m3 3 7.07 16.97 2.51-7.39 7.39-2.51L3 3z'/%3E%3Cpath d='m13 13 6 6'/%3E%3C/svg%3E") 0 0, auto !important;
+}
+
+.large-pointer a,
+.large-pointer button,
+.large-pointer [role="button"],
+.large-pointer input[type="submit"],
+.large-pointer input[type="button"],
+.large-pointer input[type="checkbox"],
+.large-pointer input[type="radio"],
+.large-pointer select {
+  cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M8 3H7a2 2 0 0 0-2 2v5a2 2 0 0 0 4 0V4a1 1 0 0 1 1-1h.5a1 1 0 0 1 1 1v5a1 1 0 0 1-1 1H10'/%3E%3Cpath d='M10 12v3a5 5 0 0 0 10 0v-1'/%3E%3C/svg%3E") 0 0, pointer !important;
+}
